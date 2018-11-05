@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+.centered{
+    margin:  auto;
+    
+}
+
+.silver-border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+}
+
+.beige-background{
+    background-color: #EEF5DB;
+}
+
+.blue-background{
+    background-color: #2C3E50;
+}
+
+.beige-font{
+    color: #EEF5DB;
+}
+
+.blue-font{
+    color: #2C3E50;  
+}
+
+.container-fluid{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.profile-picture{
+ width: 10em;
+ height: 10em;
+ border-radius: 25%;
+ margin: 1em 0em 0em 0em;
+}
+
+.picture{
+    max-width:80%; 
+    height:auto;
+}
+
+.icon{
+    max-width: 75px;
+    height: auto;
+}
+
+#name{
+    color:white;
+}
+
+.row{
+    margin-bottom: 30px;
+}
+
+#myWork{
+    background-image: url("pictures/Milestone.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+}
+
+#letsMeet{
+    height: 50vh;
+    position: relative;
+}
+
+.inside-box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     
+}
