@@ -4,8 +4,7 @@ body{
 }
 
 .centered{
-    margin:  auto;
-    
+    margin:  auto; 
 }
 
 .silver-border{
@@ -36,10 +35,10 @@ body{
 }
 
 .profile-picture{
- width: 10em;
- height: 10em;
- border-radius: 25%;
- margin: 1em 0em 0em 0em;
+    width: 75%; 
+    height: auto;  /*to maintain aspect ratio.*/
+    border-radius: 25%;
+    margin: 1em 0em 0em 0em;
 }
 
 .picture{
@@ -48,7 +47,7 @@ body{
 }
 
 .icon{
-    max-width: 75px;
+    max-width: 100px;
     height: auto;
 }
 
@@ -58,6 +57,7 @@ body{
 
 .row{
     margin-bottom: 30px;
+    margin-top: 15px; 
 }
 
 #myWork{
@@ -69,15 +69,12 @@ body{
     position: relative;
 }
 
-#letsMeet{
+#letsMeetRow{
     height: 50vh;
     position: relative;
 }
 
-.inside-box{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-     
+h1, h2{
+    text-align:center;
+    text-transform: uppercase;
 }
